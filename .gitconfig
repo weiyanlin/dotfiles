@@ -1,0 +1,26 @@
+[user]
+    name = weiyanlin
+    email = wylin0105@gmail.com
+    #name = Wei-Yan Lin
+    #email = weiyanlin@realtek.com
+[core]
+    editor = vim
+[color]
+    ui = auto
+[diff]
+[difftool]
+[merge]
+[mergetool]
+[github]
+    user = weiyanlin
+[alias]
+    br = branch
+    cbr = rev-parse --abbrev-ref HEAD  # current branch
+    ci = commit
+    co = checkout
+    cp = cherry-pick
+    df = diff
+    dt = difftool
+    lo = log --oneline
+    mt = mergetool
+    st = status
