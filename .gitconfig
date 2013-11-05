@@ -1,8 +1,6 @@
 [user]
     name = weiyanlin
     email = wylin0105@gmail.com
-    #name = Wei-Yan Lin
-    #email = weiyanlin@realtek.com
 [core]
     editor = vim
 [color]
