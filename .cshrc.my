@@ -21,4 +21,3 @@ set color
 setenv LSCOLORS ExGxFxdxCxDxDxBxBxExEx
 
 setenv REALTEK ~/Documents/Realtek/
-setenv LEARNING_PERL ~/Documents/programming/perl/learning_perl
