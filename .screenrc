@@ -17,3 +17,14 @@ altscreen on
 
 # Disable vbell
 vbell off
+
+# remove some dangerous key bindings by binding with empty value
+bind h      # hardcopy; write a hardcopy of the current window to the file "hardcopy.n"
+bind ^h     # ???
+bind k      # kill; destroy the current window
+bind ^k
+bind s      # xoff; send a ^S (ASCII XOFF) to the current window
+bind W      # width; toggle between 80 and 132 columns
+bind .      # dumptermcap; write out a ".termcap" file
+bind ^\     # quit; kill all windows and terminate screen
+bind \\     # quit
