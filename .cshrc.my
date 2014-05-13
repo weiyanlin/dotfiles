@@ -1,0 +1,48 @@
+#!/bin/csh -f
+
+# ---------------------------------------------------------------------------
+# Set prompt
+# ---------------------------------------------------------------------------
+setenv RESET        "%{\e[0m%}"
+
+setenv GREEN_H      "%{\e[0;1;32m%}"
+setenv YELLOW_H     "%{\e[0;1;33m%}"
+setenv BLUE_H       "%{\e[0;1;34m%}"
+setenv MAGENTA_H    "%{\e[0;1;35m%}"
+
+setenv GREEN        "%{\e[0;32m%}"
+setenv YELLOW       "%{\e[0;33m%}"
+setenv BLUE         "%{\e[0;34m%}"
+setenv MAGENTA      "%{\e[0;35m%}"
+
+set prompt = "$MAGENTA[%n]$GREEN[%~]%#$RESET "
+#set prompt = "$MAGENTA[%n@%m]$GREEN[%/]%#$RESET "
+
+unset RESET
+
+unset GREEN_H
+unset YELLOW_H
+unset BLUE_H
+unset MAGENTA_H
+
+unset GREEN
+unset YELLOW
+unset BLUE
+unset MAGENTA
+
+# ---------------------------------------------------------------------------
+# General settings
+# ---------------------------------------------------------------------------
+#set autocorrect
+set autoexpand      # for history !command
+set autolist        # for tcsh
+set autologout=0    # disable autologout
+set filec           # expands file names with the ESC key
+set history=300
+set ignoreeof       # only "exit" (not Control d) will logout
+set nobeep          # doesn't beep you when you are expanding files 
+                    # with the ESC key
+
+setenv CLICOLOR     # distinguish dir, file, cmd
+set color
+setenv LSCOLORS ExGxFxdxCxDxDxBxBxExEx
