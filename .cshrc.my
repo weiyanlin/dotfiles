@@ -3,48 +3,8 @@
 # ---------------------------------------------------------------------------
 # Set prompt
 # ---------------------------------------------------------------------------
-setenv OFF          "%{\e[0m%}"
-
-setenv BLACK        "%{\e[1;30m%}"
-setenv RED          "%{\e[1;31m%}"
-setenv GREEN        "%{\e[1;32m%}"
-setenv YELLOW       "%{\e[1;33m%}"
-setenv BLUE         "%{\e[1;34m%}"
-setenv MAGENTA      "%{\e[1;35m%}"
-setenv CYAN         "%{\e[1;36m%}"
-setenv WHITE        "%{\e[1;37m%}"
-
-setenv DARKBLACK    "%{\e[0;30m%}"
-setenv DARKRED      "%{\e[0;31m%}"
-setenv DARKGREEN    "%{\e[0;32m%}"
-setenv DARKYELLOW   "%{\e[0;33m%}"
-setenv DARKBLUE     "%{\e[0;34m%}"
-setenv DARKMAGENTA  "%{\e[0;35m%}"
-setenv DARKCYAN     "%{\e[0;36m%}"
-setenv DARKWHITE    "%{\e[0;37m%}"
-
-set prompt = "$DARKMAGENTA[%n]$DARKGREEN[%~]%#$OFF "
-#set prompt = "$MAGENTA[%n@%m]$GREEN[%/]%#$OFF "
-
-unset OFF
-
-unset BLACK
-unset RED
-unset GREEN
-unset YELLOW
-unset BLUE
-unset MAGENTA
-unset CYAN
-unset WHITE
-
-unset DARKBLACK
-unset DARKRED
-unset DARKGREEN
-unset DARKYELLOW
-unset DARKBLUE
-unset DARKMAGENTA
-unset DARKCYAN
-unset DARKWHITE
+alias precmd 'source ~/.csh_prompt'
+source ~/.csh_prompt
 
 # ---------------------------------------------------------------------------
 # General settings
