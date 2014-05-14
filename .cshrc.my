@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------
 # Set prompt
 # ---------------------------------------------------------------------------
-setenv RESET        "%{\e[0m%}"
+setenv OFF          "%{\e[0m%}"
 
 setenv GREEN_H      "%{\e[0;1;32m%}"
 setenv YELLOW_H     "%{\e[0;1;33m%}"
@@ -15,10 +15,10 @@ setenv YELLOW       "%{\e[0;33m%}"
 setenv BLUE         "%{\e[0;34m%}"
 setenv MAGENTA      "%{\e[0;35m%}"
 
-set prompt = "$MAGENTA[%n]$GREEN[%~]%#$RESET "
-#set prompt = "$MAGENTA[%n@%m]$GREEN[%/]%#$RESET "
+set prompt = "$MAGENTA[%n]$GREEN[%~]%#$OFF "
+#set prompt = "$MAGENTA[%n@%m]$GREEN[%/]%#$OFF "
 
-unset RESET
+unset OFF
 
 unset GREEN_H
 unset YELLOW_H
