@@ -22,3 +22,5 @@ set nobeep          # doesn't beep you when you are expanding files
 setenv CLICOLOR     # distinguish dir, file, cmd
 set color
 setenv LSCOLORS ExGxFxdxCxDxDxBxBxExEx
+
+setenv SVN_EDITOR vim
