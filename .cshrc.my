@@ -24,3 +24,7 @@ set color
 setenv LSCOLORS ExGxFxdxCxDxDxBxBxExEx
 
 setenv SVN_EDITOR vim
+
+# locale
+setenv LANG en_us.UTF-8
+setenv LC_ALL en_us.UTF-8
