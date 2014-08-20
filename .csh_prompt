@@ -20,8 +20,8 @@ setenv DARKMAGENTA  "%{\e[0;35m%}"
 setenv DARKCYAN     "%{\e[0;36m%}"
 setenv DARKWHITE    "%{\e[0;37m%}"
 
-set prompt = "$DARKMAGENTA[%n]$DARKGREEN[%~]%#$OFF "
-#set prompt = "$MAGENTA[%n@%m]$GREEN[%/]%#$OFF "
+set prompt = "$DARKMAGENTA[%n]$DARKYELLOW[%T]$DARKGREEN[%~]%#$OFF "
+#set prompt = "$MAGENTA[%n@%m]$YELLOW[%T]$GREEN[%/]%#$OFF "
 
 unset OFF
 
