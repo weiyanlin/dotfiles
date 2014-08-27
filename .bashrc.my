@@ -20,10 +20,8 @@ set ignoreeof           # only "exit" (not Control d) will logout
 set nobeep              # doesn't beep you when you are expanding files with the ESC key
 
 #eval `dircolors $HOME/.colourrc`
-# Linux LS_COLORS
-#LS_COLORS="di=1;;40:ln=1;;40:so=1;;40:pi=1;;40:ex=1;;40:bd=1;;40:cd=1;;40:su=1;;40:sg=1;;40:tw=1;;40:ow=1;;40:"
-# BSD LSCOLORS
-LSCOLORS="ExGxFxDxCxDxDxBxBxExEx"
+#export LS_COLORS="di=1;;40:ln=1;;40:so=1;;40:pi=1;;40:ex=1;;40:bd=1;;40:cd=1;;40:su=1;;40:sg=1;;40:tw=1;;40:ow=1;;40:"  # Linux
+export LSCOLORS="ExGxFxDxCxDxDxBxBxExEx"    # BSD
 
 # set up a happy editor for programs that want them
 export EDITOR="vim"

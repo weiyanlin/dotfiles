@@ -20,6 +20,7 @@ set ignoreeof           # only "exit" (not Control d) will logout
 set nobeep              # doesn't beep you when you are expanding files 
                         # with the ESC key
 
+setenv CLICOLOR         # distinguish dir, file, exe...
 setenv LSCOLORS ExGxFxDxCxDxDxBxBxExEx
 
 setenv EDITOR vim
