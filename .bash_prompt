@@ -1,0 +1,43 @@
+#.bash_prompt
+
+OFF="\e[0m"
+
+BLACK="\e[1;30m"
+RED="\e[1;31m"
+GREEN="\e[1;32m"
+YELLOW="\e[1;33m"
+BLUE="\e[1;34m"
+MAGENTA="\e[1;35m"
+CYAN="\e[1;36m"
+WHITE="\e[1;37m"
+
+DARKBLACK="\e[0;30m"
+DARKRED="\e[0;31m"
+DARKGREEN="\e[0;32m"
+DARKYELLOW="\e[0;33m"
+DARKBLUE="\e[0;34m"
+DARKMAGENTA="\e[0;35m"
+DARKCYAN="\e[0;36m"
+DARKWHITE="\e[0;37m"
+
+PS1="$DARKMAGENTA[\u]$DARKYELLOW[\A]$DARKGREEN[\w]\$$OFF ";
+
+unset OFF
+
+unset BLACK
+unset RED
+unset GREEN
+unset YELLOW
+unset BLUE
+unset MAGENTA
+unset CYAN
+unset WHITE
+
+unset DARKBLACK
+unset DARKRED
+unset DARKGREEN
+unset DARKYELLOW
+unset DARKBLUE
+unset DARKMAGENTA
+unset DARKCYAN
+unset DARKWHITE
