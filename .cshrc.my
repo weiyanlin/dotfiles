@@ -10,21 +10,19 @@ source ~/.csh_prompt
 # General settings
 # ---------------------------------------------------------------------------
 #set autocorrect
-set autoexpand      # for history !command
-set autolist        # for tcsh
-set autologout=0    # disable autologout
-set filec           # expands file names with the ESC key
+set autoexpand          # for history !command
+set autolist            # for listing the suggestions
+set autologout=0        # disable autologout
+#set complete=enhance    # for case-insensitive
+set filec               # expands file names with the ESC key
 set history=300
-set ignoreeof       # only "exit" (not Control d) will logout
-set nobeep          # doesn't beep you when you are expanding files 
-                    # with the ESC key
+set ignoreeof           # only "exit" (not Control d) will logout
+set nobeep              # doesn't beep you when you are expanding files 
+                        # with the ESC key
 
-setenv CLICOLOR     # distinguish dir, file, cmd
-set color
-setenv LSCOLORS ExGxFxdxCxDxDxBxBxExEx
+setenv LSCOLORS ExGxFxDxCxDxDxBxBxExEx
 
-setenv SVN_EDITOR vim
+setenv EDITOR vim
 
-# locale
-setenv LANG en_us.UTF-8
-setenv LC_ALL en_us.UTF-8
+setenv LANG en_US.UTF-8
+setenv LC_ALL en_US.UTF-8
