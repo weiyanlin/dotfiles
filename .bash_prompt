@@ -20,7 +20,8 @@ DARKMAGENTA="\e[0;35m"
 DARKCYAN="\e[0;36m"
 DARKWHITE="\e[0;37m"
 
-PS1="$DARKMAGENTA[\u]$DARKYELLOW[\A]$DARKGREEN[\w]\$$OFF ";
+# add \\[ to make long command wrap to a new line
+export PS1="\\[$DARKMAGENTA[\u]$DARKYELLOW[\A]$DARKGREEN[\w]\$$OFF "
 
 unset OFF
 
