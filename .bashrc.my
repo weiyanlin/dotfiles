@@ -30,4 +30,8 @@ export VISUAL="vim"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
+HISTSIZE=5000
+HISTFILESIZE=10000
 HISTCONTROL=ignoreboth  # dont store duplicate adjacent items in the history
+shopt -s histappend
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
