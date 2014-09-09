@@ -1,7 +1,6 @@
 #.bash_prompt
 
-OFF="\[\033[0m"
-
+OFF="\e[0m"
 BLACK="\e[1;30m"
 RED="\e[1;31m"
 GREEN="\e[1;32m"
@@ -10,7 +9,6 @@ BLUE="\e[1;34m"
 MAGENTA="\e[1;35m"
 CYAN="\e[1;36m"
 WHITE="\e[1;37m"
-
 DARKBLACK="\e[0;30m"
 DARKRED="\e[0;31m"
 DARKGREEN="\e[0;32m"
@@ -20,11 +18,29 @@ DARKMAGENTA="\e[0;35m"
 DARKCYAN="\e[0;36m"
 DARKWHITE="\e[0;37m"
 
+BASH_OFF="\[\e[0m\]"
+BASH_BLACK="\[\e[1;30m\]"
+BASH_RED="\[\e[1;31m\]"
+BASH_GREEN="\[\e[1;32m\]"
+BASH_YELLOW="\[\e[1;33m\]"
+BASH_BLUE="\[\e[1;34m\]"
+BASH_MAGENTA="\[\e[1;35m\]"
+BASH_CYAN="\[\e[1;36m\]"
+BASH_WHITE="\[\e[1;37m\]"
+BASH_DARKBLACK="\[\e[0;30m\]"
+BASH_DARKRED="\[\e[0;31m\]"
+BASH_DARKGREEN="\[\e[0;32m\]"
+BASH_DARKYELLOW="\[\e[0;33m\]"
+BASH_DARKBLUE="\[\e[0;34m\]"
+BASH_DARKMAGENTA="\[\e[0;35m\]"
+BASH_DARKCYAN="\[\e[0;36m\]"
+BASH_DARKWHITE="\[\e[0;37m\]"
+
 #export PS1="[\u][\A][\w]\$ "
-export PS1="$DARKMAGENTA[\u]$DARKYELLOW[\A]$DARKGREEN[\w]\$$OFF "
+#export PS1="$DARKMAGENTA[\u]$DARKYELLOW[\A]$DARKGREEN[\w]\$$OFF "
+export PS1="$BASH_DARKMAGENTA[\u]$BASH_DARKYELLOW[\A]$BASH_DARKGREEN[\w]\$$BASH_OFF "
 
 unset OFF
-
 unset BLACK
 unset RED
 unset GREEN
@@ -33,7 +49,6 @@ unset BLUE
 unset MAGENTA
 unset CYAN
 unset WHITE
-
 unset DARKBLACK
 unset DARKRED
 unset DARKGREEN
@@ -42,3 +57,21 @@ unset DARKBLUE
 unset DARKMAGENTA
 unset DARKCYAN
 unset DARKWHITE
+
+unset BASH_OFF
+unset BASH_BLACK
+unset BASH_RED
+unset BASH_GREEN
+unset BASH_YELLOW
+unset BASH_BLUE
+unset BASH_MAGENTA
+unset BASH_CYAN
+unset BASH_WHITE
+unset BASH_DARKBLACK
+unset BASH_DARKRED
+unset BASH_DARKGREEN
+unset BASH_DARKYELLOW
+unset BASH_DARKBLUE
+unset BASH_DARKMAGENTA
+unset BASH_DARKCYAN
+unset BASH_DARKWHITE
