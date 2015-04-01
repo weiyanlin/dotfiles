@@ -9,3 +9,5 @@ if [ -f ~/.bashrc.my ]; then
 fi
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/sbin:/usr/X11R6/bin:/usr/sbin:$PATH"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
